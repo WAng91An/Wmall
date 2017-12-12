@@ -12,9 +12,9 @@
 
     <appender name="mall" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <!--<File>d:/malllog/mall.log</File>-->
-        <File>/developer/apache-tomcat-7.0.73/logs/mall.log</File>
+        <File>D:\XAMPP\tomcat\logs\mall.log</File>
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-            <fileNamePattern>/developer/apache-tomcat-7.0.73/logs/mall.log.%d{yyyy-MM-dd}.gz</fileNamePattern>
+            <fileNamePattern>D:\XAMPP\tomcat\logs\mall.log.%d{yyyy-MM-dd}.gz</fileNamePattern>
             <append>true</append>
             <maxHistory>10</maxHistory>
         </rollingPolicy>
@@ -26,9 +26,9 @@
 
     <appender name="error" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <!--<File>d:/malllog/error.log</File>-->
-        <File>/developer/apache-tomcat-7.0.73/logs/error.log</File>
+        <File>D:\XAMPP\tomcat\logs\error.log</File>
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-            <fileNamePattern>/devsoft/apache-tomcat-7.0.73/logs/error.log.%d{yyyy-MM-dd}.gz</fileNamePattern>
+            <fileNamePattern>D:\XAMPP\tomcat\logs\error.log.%d{yyyy-MM-dd}.gz</fileNamePattern>
             <!--<fileNamePattern>d:/malllog/error.log.%d{yyyy-MM-dd}.gz</fileNamePattern>-->
             <append>true</append>
             <maxHistory>10</maxHistory>
