@@ -88,7 +88,7 @@ public class CategoryServiceImpl implements ICategoryService {
      * @param categoryId
      * @return
      */
-    public ServerResponse selectCategoryAndChidrenById(Integer categoryId){
+    public ServerResponse<List<Integer>> selectCategoryAndChidrenById(Integer categoryId){
         //初始化Set集合，运行递归算法 把结果集填入categorySet中
         Set<Category> categorySet = Sets.newHashSet();
         findChildCategory(categorySet,categoryId);
