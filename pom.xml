@@ -148,7 +148,7 @@
     </dependency>
 
 
-    <!-- id鍔犲瘑瑙ｅ瘑 -->
+    <!-- id加密解密 -->
     <dependency>
       <groupId>org.hashids</groupId>
       <artifactId>hashids</artifactId>
@@ -248,7 +248,7 @@
 
 
   <build>
-    <finalName>mall</finalName>
+    <finalName>mmall</finalName>
     <plugins>
       <plugin>
         <groupId>org.mybatis.generator</groupId>
@@ -260,13 +260,13 @@
         </configuration>
       </plugin>
 
-      <!-- geelynote maven鐨勬牳蹇冩彃浠朵箣-complier鎻掍欢榛樿鍙敮鎸佺紪璇慗ava 1.4锛屽洜姝ら渶瑕佸姞涓婃敮鎸侀珮鐗堟湰jre鐨勯厤缃紝鍦╬om.xml閲岄潰鍔犱笂 澧炲姞缂栬瘧鎻掍欢 -->
+      <!-- geelynote maven的核心插件之-complier插件默认只支持编译Java 1.4，因此需要加上支持高版本jre的配置，在pom.xml里面加上 增加编译插件 -->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
         <configuration>
-          <source>1.8</source>
-          <target>1.8</target>
+          <source>1.7</source>
+          <target>1.7</target>
           <encoding>UTF-8</encoding>
           <compilerArguments>
             <extdirs>${project.basedir}/src/main/webapp/WEB-INF/lib</extdirs>
