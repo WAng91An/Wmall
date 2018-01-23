@@ -1,14 +1,9 @@
 # Wmall电商网站 （Wmall 后台接口实现）
 [![](https://img.shields.io/badge/JDK-1.8-brightgreen.svg)]()
-
 [![](https://img.shields.io/hexpm/l/plug.svg)]()
-
 [![](https://img.shields.io/badge/maven-v4.0.0-blue.svg)](http://maven.apache.org/)
-
 [![](https://img.shields.io/badge/mybatis-v3.4.1-lightgrey.svg)](http://www.mybatis.org)
-
 [![](https://img.shields.io/badge/springframework-v4.0.0-orange.svg)](http://spring.io/projects)
-
 [![](https://img.shields.io/badge/developer-WAng91An-red.svg)](https://github.com/WAng91An)
 #### 此项目利用SSM框架，使用了一下技术
 1. nginx 负载均衡，图片上传图片服务器
