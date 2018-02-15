@@ -349,4 +349,8 @@
 2. 传入订单号，路径，userId
 3. 下单
    - 支付宝demo
-   - 下单，上传二维码到服务器
+   - 下单，上传二维码到服务器
+#### 项目资源
+获取更多项目资源请关注公众号：Web项目聚集地
+
+![](https://github.com/WAng91An/Wmall/blob/master/二维码.jpg)
